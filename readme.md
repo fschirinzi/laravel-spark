@@ -17,7 +17,7 @@ Spark is an experimental project primarily intended for building business orient
 <a name="installation"></a>
 ## Installation
 
-add teh spark service provider to config/app.php:
+add the spark service provider to config/app.php:
 
 ```
         Laravel\Spark\Providers\SparkServiceProvider::class,
