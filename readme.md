@@ -14,6 +14,22 @@
 
 Spark is an experimental project primarily intended for building business oriented SaaS applications, and is highly opinionated towards that use case.
 
+## bugs
+if you get the following error:
+class_parents(): object or string expected
+
+go to config/auth.php and add :
+
+```php
+'providers' =>
+        [
+            'users' =>
+                [
+                    'model' =>  App\User::class
+                ]
+        ],
+```
+
 <a name="installation"></a>
 ## Installation
 
